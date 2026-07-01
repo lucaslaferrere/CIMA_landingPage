@@ -15,6 +15,7 @@ import pdf9 from "@/assets/bibliografis/alianzas-publico-privadas.pdf";
 import pdf10 from "@/assets/bibliografis/manual-gestion-municipal.pdf";
 import pdf11 from "@/assets/bibliografis/manual-tiempos-crisis.pdf";
 import pdf12 from "@/assets/bibliografis/calidad-legislativa.pdf";
+import pdf13 from "@/assets/bibliografis/federalismo-argentino.pdf";
 
 interface Publication {
   id: number;
@@ -38,6 +39,7 @@ const publications: Publication[] = [
   { id: 10, title: "Manual de la Gestión Municipal", author: "CIMA", category: "Servicios Públicos", description: "Manual completo sobre administración municipal: organización, procesos, recursos humanos y prestación de servicios.", pdfUrl: pdf10 },
   { id: 11, title: "Manual en Tiempos de Crisis", author: "CIMA", category: "Servicios Públicos", description: "Protocolos y estrategias para la gestión municipal ante situaciones de emergencia y crisis institucional.", pdfUrl: pdf11 },
   { id: 12, title: "Calidad Legislativa", author: "Pérez Bourbon", category: "El Concejo Deliberante", description: "Análisis sobre los estándares de calidad en la producción legislativa municipal, con criterios para la elaboración de normas claras y eficaces.", pdfUrl: pdf12 },
+  { id: 13, title: "El Gobierno Actual en el Federalismo Argentino", author: "Eduardo Arraiza, Emilio P. Camporini, Martina Schang, Enzo S. Paoletta, Héctor Pérez Bourbon", category: "Federalismo Argentino", description: "Estudio sobre la organización del gobierno actual en el marco del federalismo argentino, sus tensiones institucionales y la articulación entre los distintos niveles de gobierno.", pdfUrl: pdf13 },
 ];
 
 const sortedPublications = [...publications].sort((a, b) =>

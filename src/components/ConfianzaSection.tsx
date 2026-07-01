@@ -30,6 +30,14 @@ const municipios = [
   "Cipolletti, Río Negro",
   "Salta, Salta",
   "El Hoyo, Chubut",
+  "Benito Juarez, Buenos Aires",
+  "Ituzaingó, Buenos Aires",
+  "Junín de los Andes, Neuquén",
+  "Ingeniero Jacobacci, Río Negro",
+  "Alem, Misiones",
+  "Rawson, Chubut",
+  "Rawson, San Juan",
+  "Plaza Huincul, Neuquén",
 ];
 
 const aliados = ["Unicef MUNA", "Fundación Konrad Adenauer", "GDFE"];
